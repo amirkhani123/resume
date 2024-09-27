@@ -3,6 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --primary: #171717;
+  --primary: #000000;
   --second: #ffffff;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body
+{
+  margin: auto;
+  max-width: 1200px;
+
+}
+.box-blur{
+background: rgba(255, 255, 255, 0.83);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+}
+.my-hover{
+  @apply transition-all duration-500 ease-in
+}
+.font-vazir{
+  @apply font-[family-name:var(--font-vazirmatn)] font-light
+}
+.font-marhey{
+  @apply font-[family-name:var(--font-marhey)] font-medium
 }
