@@ -18,7 +18,8 @@ body
 
 }
 .box-blur{
-background: rgba(255, 255, 255, 0.83);
+background: rgba(255, 255, 255, 0.91);
+
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(10px);
 }
@@ -30,4 +31,19 @@ backdrop-filter: blur(10px);
 }
 .font-marhey{
   @apply font-[family-name:var(--font-marhey)] font-medium
+}
+.prograss-bar{
+  @apply bg-black dark:bg-white text-center  
+}
+.prograss-bar-lable{
+  @apply text-white dark:text-black
+}
+.card{
+  @apply flex items-center gap-2 flex-col w-[385px] h-[400px] m-1 rounded-lg p-px shadow-3xl overflow-hidden 
+}
+.card img{
+  @apply h-[320px]
+}
+.card a{
+  @apply bg-primary text-second px-4 py-2 flex items-center gap-2 rounded-lg dark:text-primary dark:bg-second my-hover hover:opacity-50
 }

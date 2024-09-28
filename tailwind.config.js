@@ -12,6 +12,10 @@ module.exports = {
         second: "var(--second)",
         primary: "var(--primary)",
       },
+      boxShadow: {
+        "3xl": "#304ffe4a 0px 4px 15px ",
+      },
+     
     },
   },
   plugins: [],
