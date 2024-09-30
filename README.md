@@ -2,7 +2,7 @@
 
 ## This project is developed with NextJS version 14 and Tailwind
 
-You can see the project by [clicking here](https://real-estate-latest.vercel.app/)
+You can see the project by [clicking here](https://resume-nine-umber.vercel.app/)
 
 
 
