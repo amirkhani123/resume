@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Layout from "@/components/layout/Layout";
-
+import { Toaster } from "react-hot-toast";
 
 const marhey = localFont({
   src: "../../public/fonts/Marhey-Regular.woff2",
@@ -20,11 +20,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  
   return (
     <html lang="en">
-      <body className={`${marhey.variable} ${vazirmatn.variable}  antialiased dark:bg-primary`}>
-        <Layout>{children}</Layout>
+      <body
+        className={`${marhey.variable} ${vazirmatn.variable}  antialiased dark:bg-primary`}
+      >
+        <Layout>
+          <div>
+            <Toaster />
+          </div>
+
+          {children}
+        </Layout>
       </body>
     </html>
   );

@@ -7,7 +7,9 @@
       "@/modules/*":["src/components/modules/*"],
       "@/templates/*":["src/components/templates/*"],
       "@/models/*":["src/models/*"],
-      "@/utils/*":["src/utils/*"],
+      "@/ui/*":["src/components/ui/*"],
+      "@/actions/*":["src/actions/*"],
+      "@/utils/*":["src/utils/*"]
     }
   }
 }

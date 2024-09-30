@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Profile() {
   return (
-    <div className="flex items-center flex-col font-vazir mb-10">
+    <div className="flex items-center flex-col  mb-10" >
       <Image
         src="/images/profile.png"
         alt="profile.png"
@@ -21,7 +21,7 @@ function Profile() {
         </span>
       </p>
       <Link
-        href="/contact"
+        href="/contact-me"
         className="py-1  px-2 bg-primary text-second font-medium text-lg rounded-md dark:bg-second dark:text-primary mt-2 my-hover hover:opacity-65"
       >
         Contact Me

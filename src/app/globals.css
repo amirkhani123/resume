@@ -10,12 +10,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body
 {
   margin: auto;
   max-width: 1200px;
-
 }
 .box-blur{
 background: rgba(255, 255, 255, 0.91);
@@ -46,4 +46,16 @@ backdrop-filter: blur(10px);
 }
 .card a{
   @apply bg-primary text-second px-4 py-2 flex items-center gap-2 rounded-lg dark:text-primary dark:bg-second my-hover hover:opacity-50
+}
+.lable{
+  @apply absolute pointer-events-none top-[10px] left-[12px] text-gray-400 transition-all duration-100 ease-in bg-second dark:bg-primary
+}
+.input:focus ~ .lable{
+ @apply top-[-15px] left-1
+}
+.input:valid ~ .lable{
+ @apply top-[-15px] left-1
+}
+.input{
+  @apply w-full p-2 border  border-gray-400 rounded-lg outline-none dark:bg-primary 
 }

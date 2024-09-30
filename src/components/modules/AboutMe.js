@@ -1,15 +1,12 @@
 function AboutMe() {
   return (
-    <div className="dark:text-second font-vazir">
+    <div id="about-me" className="mt-[85px]">
       <h3 className="text-center text-2xl font-semibold">About Me</h3>
-      <p className="text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+      <p className="text-center w-[1150px] mt-3 font-medium text-xl " >
+        Hi, my name is Amir Mohammad Khani Farashah. I was born in 2005 in
+        Tehran. Since childhood, I have been passionate about computers. For
+        over a year, I have been learning front-end development with Mr. Milad
+        Azami. I watch tutorials every day.
       </p>
     </div>
   );

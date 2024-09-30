@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Projects() {
   return (
-    <div className="dark:text-second font-vazir">
+    <div>
       <h5 className="text-center text-2xl font-semibold">PROJECTS</h5>
       <div className="flex items-center flex-wrap max-md:flex-col">
         <div className="card">
