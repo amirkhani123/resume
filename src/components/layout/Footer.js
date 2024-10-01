@@ -4,7 +4,7 @@ import { FaTelegram } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 function Footer() {
   return (
-    <footer className="box-blur flex items-center flex-col p-3 my-2 rounded-lg max-md:px-px max-md:m-0">
+    <footer className="box-blur flex items-center flex-col p-3 my-2 rounded-lg max-md:px-px max-md:m-0 ">
       <div className="flex items-center justify-between w-[150px] my-hover ">
         <Link
           href="https://github.com/amirkhani123"

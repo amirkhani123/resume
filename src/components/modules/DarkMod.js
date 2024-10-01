@@ -10,7 +10,7 @@ function DarkMod() {
         setIsDark(!isDark);
         document.documentElement.classList.toggle("dark");
       }}
-      className=" fixed bottom-5 left-5 "
+      className=" fixed bottom-5 left-5 z-10 "
     >
       {!isDark ? <FaRegMoon size={35} /> : <IoSunnyOutline size={35} color="#ffffff" />}
     </button>
