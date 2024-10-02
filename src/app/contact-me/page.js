@@ -1,8 +1,7 @@
 import ContactMePage from "@/components/templates/ContactMePage";
 import connectDB from "@/utils/connections";
 
-async function ContactMe() {
-  await connectDB();
+function ContactMe() {
   return <ContactMePage />;
 }
 
