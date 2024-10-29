@@ -14,7 +14,7 @@ function Projects() {
             width={500}
             height={500}
           />
-          <Link href="https://github.com/amirkhani123/RealEstate">
+          <Link href="https://realestatennew.liara.run">
             GitHub <FaGithub />
           </Link>
         </div>
