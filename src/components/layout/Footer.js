@@ -8,18 +8,21 @@ function Footer() {
       <div className="flex items-center justify-between w-[150px] my-hover ">
         <Link
           href="https://github.com/amirkhani123"
-          className="hover:text-blue-600"
+          className="hover:text-blue-600 tooltip group"
         >
           <FaGithub size={25} />
+          <span className="tooltip-text">GitHub</span>
         </Link>
-        <Link href="/" className="hover:text-blue-600">
+        <Link href="/" className="hover:text-blue-600 tooltip group">
           <FaTelegram size={25} />
+          <span className="tooltip-text">Telegram</span>
         </Link>
-        <Link href="/" className="hover:text-blue-600">
+        <Link href="/" className="hover:text-blue-600 tooltip group">
           <IoLogoInstagram size={25} />
+          <span className="tooltip-text">Instagram</span>
         </Link>
       </div>
-      <p className="mt-2 font-vazirmatn font-medium max-md:text-xs " >
+      <p className="mt-2 font-vazirmatn font-medium max-md:text-xs  " >
         Developed by Amir Khani with NextJS and Tailwind
       </p>
     </footer>

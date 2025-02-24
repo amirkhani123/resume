@@ -23,14 +23,15 @@ background: rgba(255, 255, 255, 0.91);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(10px);
 }
-.my-hover{
+@layer components{
+  .my-hover{
   @apply transition-all duration-500 ease-in
 }
 .font-vazir{
-  @apply font-[family-name:var(--font-vazirmatn)] font-light
+  @apply font-[family-name:var(--font-vazirmatn)] 
 }
 .font-marhey{
-  @apply font-[family-name:var(--font-marhey)] font-medium
+  @apply font-[family-name:var(--font-marhey)] 
 }
 .prograss-bar{
   @apply bg-black dark:bg-white text-center  
@@ -59,3 +60,15 @@ backdrop-filter: blur(10px);
 .input{
   @apply w-full p-2 border  border-gray-400 rounded-lg outline-none dark:bg-primary 
 }
+  .under-line{
+    @apply relative before:w-0 before:h-px before:absolute before:bottom-1 before:right-0 before:bg-black before:my-hover before:hover:w-full
+  }
+  .tooltip {
+    @apply relative  ;
+  }
+  
+  .tooltip-text {
+    @apply hidden absolute right-[50%] bottom-[135%] translate-x-[50%] bg-white text-blue-500 text-center p-2 rounded-xl z-10 shadow-lg w-fit group-hover:inline;
+  }
+}
+
