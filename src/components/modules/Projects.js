@@ -11,7 +11,7 @@ function Projects() {
     <div>
       <h5 className="text-center text-2xl font-semibold">PROJECTS</h5>
       <div className="flex items-center flex-wrap max-md:flex-col gap-5 mt-2 ">
-        <Fade cascade triggerOnce  direction="up">
+        <Fade cascade triggerOnce >
         {data.map((item)=>(
           <div key={item.id} className="flex items-center flex-col   size-56 overflow-hidden rounded-lg  shadow-3xl dark:bg-white">
            <Image src={`/images/${item.image}`} alt="image.png" width={550} height={500} className="h-40"/>
