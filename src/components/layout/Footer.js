@@ -13,7 +13,7 @@ function Footer() {
           <FaGithub size={25} />
           <span className="tooltip-text">GitHub</span>
         </Link>
-        <Link href="/" className="hover:text-blue-600 tooltip group">
+        <Link href="https://web.telegram.org/k/#@AMIRIRPC" className="hover:text-blue-600 tooltip group">
           <FaTelegram size={25} />
           <span className="tooltip-text">Telegram</span>
         </Link>
