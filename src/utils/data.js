@@ -10,7 +10,7 @@
         id:"2",
       name:"realState",
       description:"We are currently optimizing a property rental site with the ability to post ads, developed with Next Js  version 14, Redux, and Tailwind for performance.",
-      demo:"https://real-estate-lpvyjwumt-amirkhani123s-projects.vercel.app/",
+      demo:"https://real-estate-latest.vercel.app/",
       github:"https://github.com/amirkhani123/RealEstate?tab=readme-ov-file",
       image:"realEstate.png"
     },{
