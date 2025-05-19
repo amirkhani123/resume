@@ -15,6 +15,19 @@ module.exports = {
       boxShadow: {
         "3xl": "#304ffe4a 0px 4px 15px ",
       },
+      animation:{
+ "rotate-but": 'rotate_key 0.3s ease-in '
+      },
+      keyframes:{
+        rotate_key:{
+          "to":{
+            "transform":"rotate(0deg)"
+          },
+          "from":{
+            "transform":"rotate(180deg)"
+          }
+        }
+      }
      
     },
   },
