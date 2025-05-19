@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { useState } from "react";
 import { FaRegMoon } from "react-icons/fa";
 import { IoSunnyOutline } from "react-icons/io5";
